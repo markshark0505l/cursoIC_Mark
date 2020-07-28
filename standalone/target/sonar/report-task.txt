@@ -1,0 +1,6 @@
+projectKey=com.gfi.prueba:standalone
+serverUrl=http://34.245.203.77:9000
+serverVersion=8.4.1.35646
+dashboardUrl=http://34.245.203.77:9000/dashboard?id=com.gfi.prueba%3Astandalone
+ceTaskId=AXOVUPS65PkbqYWeonpI
+ceTaskUrl=http://34.245.203.77:9000/api/ce/task?id=AXOVUPS65PkbqYWeonpI
