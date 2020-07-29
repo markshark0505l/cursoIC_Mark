@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+    tomcatservice:
+        container_name: mitomcat 
+        image: bitnami/tomcat
+        environment:
+            TOMCAT_USERNAME: admin
+            TOMCAT_PASSWORD: password
+            TOMCAT_ALLOW_REMOTE_MANAGEMENT: 1
+        ports:
+            - 8081:8080
+        volumes: # PERSISTENCIA
+            - ./tomcat-users.xml:/opt/bitnami/tomcat/conf/tomcat-users.xml
+

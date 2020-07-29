@@ -1,0 +1,7 @@
+version: '3'
+services:
+    sonarqubeservice:
+        container_name: misonarqube 
+        image: sonarqube
+        ports:
+            - 9000:9000
