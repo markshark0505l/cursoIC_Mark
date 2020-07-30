@@ -43,4 +43,4 @@
 -->
 <user username="maven" password="password" roles="manager-script,manager-gui,admin-gui"/>
 <user username="admin" password="password" roles="manager-gui,admin-gui"/>
-<user username="admin" password="password" roles="manager-gui,admin-gui"/><user username="admin" password="password" roles="manager-gui,admin-gui"/></tomcat-users>
+<user username="admin" password="password" roles="manager-gui,admin-gui"/><user username="admin" password="password" roles="manager-gui,admin-gui"/><user username="admin" password="password" roles="manager-gui,admin-gui"/></tomcat-users>
